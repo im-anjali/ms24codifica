@@ -97,6 +97,8 @@ strong{
   text-align: center;
   font-family: "Nunito", sans-serif; 
   font-variant-caps: petite-caps;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .tagline{
   color: white;
@@ -108,6 +110,10 @@ strong{
   font-size: 1em;
   margin-top: -20px;
   font-weight: 450;
+}
+
+.codifica img{
+  height: 2.4rem;
 }
 .reg{
   margin-bottom: -10px;
@@ -243,7 +249,7 @@ strong{
     cursor: pointer;
     transition: 0.5s;
     animation: gradient_301 5s ease infinite;
-    border:  2px solid black;
+    border:  2px solid white;
     background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #2b0037 10%,#0c04ff 45%, #8F51EA 67%, #0044ff 87%);
     background-origin: border-box;
     background-clip: content-box, border-box;
