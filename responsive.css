@@ -39,8 +39,12 @@
 body, html {
     overflow: auto;  
 }
-/* @media screen and (max-width:900px){
+@media screen and (max-width:450px){
     .logo{
-       width: 80%;
+       width: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto; 
     }
-} */
+}
