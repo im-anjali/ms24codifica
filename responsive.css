@@ -11,7 +11,9 @@
         flex-direction: column;
         height: auto;
     }
-    
+    .line{
+        margin-top: -7px;
+    }
    
 
 
@@ -35,4 +37,8 @@
 body, html {
     overflow: auto;  
 }
-
+/* @media screen and (max-width:900px){
+    .logo{
+       width: 80%;
+    }
+} */
